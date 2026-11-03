@@ -1,0 +1,17 @@
+RR Academy Admin + CBT Android V3 — Termux upload
+
+Open Termux and run (separately from the fee-management project):
+  cd ~/rr-admin-v3
+  gh auth setup-git
+  git clone https://github.com/rrdefenceacademy2-create/rr-academy-admin.git .
+  unzip -o ~/storage/downloads/RR_Academy_Admin_CBT_V3_Fresh_Source.zip -d .
+  git config user.name "RR Defence Academy"
+  git config user.email "rrdefenceacademy2-create@users.noreply.github.com"
+  git add .
+  git commit -m "Add Android Admin CBT V3"
+  git push origin main
+
+After push, visit https://github.com/rrdefenceacademy2-create/rr-academy-admin/actions
+This ZIP contains SOURCE, not an APK. GitHub Actions will build a debug APK.
+Do not share GitHub tokens/passwords with anyone.
+Do not run Firebase deploy for this app-build operation.
